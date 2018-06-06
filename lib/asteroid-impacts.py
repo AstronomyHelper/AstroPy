@@ -29,6 +29,11 @@ max_mag = np.amax(dfOrbit['Asteroid Magnitude'])
 # Min is: 9.45
 min_mag =  np.amin(dfOrbit['Asteroid Magnitude'])
 
+# Max is: 0.7069
+max_OID = np.amax(dfOrbit['Minimum Orbit Intersection Distance (AU)'])
+# Min is: 0.0
+min_OID = np.amin(dfOrbit['Minimum Orbit Intersection Distance (AU)'])
+
 #Prints data head to terminal. 
 #print(dfImpacts.head(10))
 #print()
@@ -46,3 +51,6 @@ plt.show()
 
 print(max_mag)
 print(min_mag)
+print('---------------------------------------------------------------------------------------')
+print(max_OID)
+print(min_OID)
