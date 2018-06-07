@@ -1,7 +1,7 @@
 # Author: Michael Austin
 # Date: 06/05/2018
 # Data: NASA Asteroid Orbits CSV
-# Purpose Plot orbits and correlate to develop a prediction service
+# Purpose: Plot orbits and correlate to develop a prediction service
 
 import pandas as pd
 import numpy as np
